@@ -1,0 +1,42 @@
+Package: fdatestcpp
+Type: Package
+Title: Fast Interval-Wise and Threshold-Wise Tests for Functional Data
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Matteo", family = "Fontana",
+           role = c("aut", "cre"),
+           email = "mtt.fnt@gmail.com"),
+    person(given = "Alessia", family = "Pini", role = c("ctb", "cph"),
+           comment = "author of 'fdatest', whose procedures and code are ported"),
+    person(given = "Aymeric", family = "Stamm", role = c("ctb", "cph"),
+           comment = "contributor to and maintainer of 'fdatest', whose procedures and code are ported"),
+    person(given = "Simone", family = "Vantini", role = c("ctb", "cph"),
+           comment = "author of 'fdatest', whose procedures and code are ported"))
+Description: Implements fast versions of the interval-wise testing procedure
+    of Pini and Vantini (2017) <doi:10.1080/10485252.2017.1306627> and of the
+    threshold-wise testing procedure of Abramowicz et al. (2023)
+    <doi:10.1111/biom.13669> for one- and two-sample tests on functional data,
+    following their implementation in the development version of the
+    'fdatest' package (<https://github.com/permaverse/fdatest>). Curves can be
+    given as matrices or as 'fda' functional data objects. Resampling uses sign
+    flips, paired swaps or label permutations, optionally constant within
+    blocks of observations, or user-supplied resamples. Results can be
+    plotted with 'ggplot2', with the selected domain shaded. The interval-wise
+    adjustment costs O(B p^2) operations instead of O(B p^3) for B resamples
+    and p grid points. With the same inputs and random seed, the p-values
+    reproduce those of that 'fdatest' version exactly on platforms where R
+    and the compiler use the same long double precision.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends:
+    R (>= 3.6.0)
+Imports:
+    Rcpp (>= 1.0.0),
+    fda,
+    ggplot2 (>= 3.5.0),
+    graphics,
+    stats
+LinkingTo:
+    Rcpp
+Suggests:
+    fdatest

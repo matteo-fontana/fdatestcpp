@@ -1,0 +1,13 @@
+﻿fd B=1000 iwt1         integral fdatest    0.84s  fdatestcpp  0.0169s (matrix  0.0152s)  x   50  identical=TRUE
+fd B=1000 iwt1         max      fdatest    5.31s  fdatestcpp  0.0125s (matrix  0.0122s)  x  425  identical=TRUE
+fd B=1000 iwt2_paired  integral fdatest    1.29s  fdatestcpp  0.0263s (matrix  0.0262s)  x   49  identical=TRUE
+fd B=1000 iwt2_paired  max      fdatest    5.95s  fdatestcpp  0.0244s (matrix  0.0238s)  x  244  identical=TRUE
+fd B=1000 twt2_paired  integral fdatest    0.43s  fdatestcpp  0.0238s (matrix  0.0225s)  x   18  identical=TRUE
+fd B=1000 twt2_paired  max      fdatest    0.63s  fdatestcpp  0.0225s (matrix  0.0213s)  x   28  identical=TRUE
+fd B=5000 iwt1         integral fdatest    4.36s  fdatestcpp  0.0700s (matrix  0.0675s)  x   62  identical=TRUE
+fd B=5000 iwt1         max      fdatest   28.16s  fdatestcpp  0.0600s (matrix  0.0575s)  x  469  identical=TRUE
+fd B=5000 iwt2_paired  integral fdatest    5.92s  fdatestcpp  0.1300s (matrix  0.1250s)  x   46  identical=TRUE
+fd B=5000 iwt2_paired  max      fdatest   29.61s  fdatestcpp  0.1150s (matrix  0.1150s)  x  257  identical=TRUE
+fd B=5000 twt2_paired  integral fdatest    2.28s  fdatestcpp  0.1100s (matrix  0.1100s)  x   21  identical=TRUE
+fd B=5000 twt2_paired  max      fdatest    3.22s  fdatestcpp  0.1050s (matrix  0.1050s)  x   31  identical=TRUE
+wrote benchmarks.md

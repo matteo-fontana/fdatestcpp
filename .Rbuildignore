@@ -1,0 +1,9 @@
+^bench$
+^benchmarks\.md$
+^README\.md$
+^cran-comments\.md$
+^\.git$
+^\.gitignore$
+^\.gitattributes$
+^Rplots\.pdf$
+^man/figures$

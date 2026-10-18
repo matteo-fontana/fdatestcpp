@@ -1,0 +1,37 @@
+﻿p= 40 B=1000 iwt1         integral fdatest     0.11s  fdatestcpp  0.0064s  x     17  identical=TRUE
+p= 40 B=1000 iwt1         max      fdatest     0.73s  fdatestcpp  0.0055s  x    133  identical=TRUE
+p= 40 B=1000 iwt2_paired  integral fdatest     0.33s  fdatestcpp  0.0102s  x     32  identical=TRUE
+p= 40 B=1000 iwt2_paired  max      fdatest     1.10s  fdatestcpp  0.0098s  x    112  identical=TRUE
+p= 40 B=1000 twt2_paired  integral fdatest     0.32s  fdatestcpp  0.0109s  x     29  identical=TRUE
+p= 40 B=1000 twt2_paired  max      fdatest     0.38s  fdatestcpp  0.0116s  x     33  identical=TRUE
+p= 40 B=5000 iwt1         integral fdatest     0.58s  fdatestcpp  0.0269s  x     22  identical=TRUE
+p= 40 B=5000 iwt1         max      fdatest     4.12s  fdatestcpp  0.0244s  x    169  identical=TRUE
+p= 40 B=5000 iwt2_paired  integral fdatest     1.66s  fdatestcpp  0.0575s  x     29  identical=TRUE
+p= 40 B=5000 iwt2_paired  max      fdatest     5.29s  fdatestcpp  0.0469s  x    113  identical=TRUE
+p= 40 B=5000 twt2_paired  integral fdatest     1.43s  fdatestcpp  0.0462s  x     31  identical=TRUE
+p= 40 B=5000 twt2_paired  max      fdatest     2.03s  fdatestcpp  0.0494s  x     41  identical=TRUE
+p=100 B=1000 iwt1         integral fdatest     0.92s  fdatestcpp  0.0144s  x     64  identical=TRUE
+p=100 B=1000 iwt1         max      fdatest     6.30s  fdatestcpp  0.0147s  x    429  identical=TRUE
+p=100 B=1000 iwt2_paired  integral fdatest     1.52s  fdatestcpp  0.0263s  x     58  identical=TRUE
+p=100 B=1000 iwt2_paired  max      fdatest     6.93s  fdatestcpp  0.0244s  x    284  identical=TRUE
+p=100 B=1000 twt2_paired  integral fdatest     0.57s  fdatestcpp  0.0225s  x     25  identical=TRUE
+p=100 B=1000 twt2_paired  max      fdatest     0.79s  fdatestcpp  0.0262s  x     30  identical=TRUE
+p=100 B=5000 iwt1         integral fdatest     5.00s  fdatestcpp  0.0750s  x     67  identical=TRUE
+p=100 B=5000 iwt1         max      fdatest    32.85s  fdatestcpp  0.0675s  x    487  identical=TRUE
+p=100 B=5000 iwt2_paired  integral fdatest     6.60s  fdatestcpp  0.1300s  x     51  identical=TRUE
+p=100 B=5000 iwt2_paired  max      fdatest    33.37s  fdatestcpp  0.1325s  x    252  identical=TRUE
+p=100 B=5000 twt2_paired  integral fdatest     2.49s  fdatestcpp  0.1125s  x     22  identical=TRUE
+p=100 B=5000 twt2_paired  max      fdatest     3.57s  fdatestcpp  0.1100s  x     32  identical=TRUE
+p=200 B=1000 iwt1         integral fdatest     7.22s  fdatestcpp  0.0437s  x    165  identical=TRUE
+p=200 B=1000 iwt1         max      fdatest    30.83s  fdatestcpp  0.0344s  x    897  identical=TRUE
+p=200 B=1000 iwt2_paired  integral fdatest     7.56s  fdatestcpp  0.0600s  x    126  identical=TRUE
+p=200 B=1000 iwt2_paired  max      fdatest    31.69s  fdatestcpp  0.0550s  x    576  identical=TRUE
+p=200 B=1000 twt2_paired  integral fdatest     0.90s  fdatestcpp  0.0456s  x     20  identical=TRUE
+p=200 B=1000 twt2_paired  max      fdatest     1.46s  fdatestcpp  0.0519s  x     28  identical=TRUE
+p=200 B=5000 iwt1         integral fdatest    35.31s  fdatestcpp  0.2175s  x    162  identical=TRUE
+p=200 B=5000 iwt1         max      fdatest   153.05s  fdatestcpp  0.1425s  x   1074  identical=TRUE
+p=200 B=5000 iwt2_paired  integral fdatest    33.96s  fdatestcpp  0.2900s  x    117  identical=TRUE
+p=200 B=5000 iwt2_paired  max      fdatest   147.09s  fdatestcpp  0.2500s  x    588  identical=TRUE
+p=200 B=5000 twt2_paired  integral fdatest     4.45s  fdatestcpp  0.2200s  x     20  identical=TRUE
+p=200 B=5000 twt2_paired  max      fdatest     6.25s  fdatestcpp  0.2125s  x     29  identical=TRUE
+wrote benchmarks.md

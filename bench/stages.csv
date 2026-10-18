@@ -1,0 +1,12 @@
+stage,seconds
+Resampling: one-sample sign flips,0.09
+"Resampling: one-sample, 12 blocks",0.00890625
+Resampling: paired swaps,0.2225
+"Resampling: paired swaps, standardized",1.28
+Resampling: unpaired permutations,0.419999999999998
+"IWT, integral, recycle = FALSE",0.0874999999999995
+"IWT, max, recycle = FALSE",0.046875
+"IWT, integral, recycle = TRUE",0.182499999999999
+"TWT, integral",0.00828125000000002
+"TWT, max",0.00515624999999997
+"Global, integral",0.00375000000000003

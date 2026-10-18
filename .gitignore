@@ -1,0 +1,17 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# compiled code
+src/*.o
+src/*.so
+src/*.dll
+
+# build and check output
+*.tar.gz
+*.Rcheck/
+
+# graphics written by non-interactive R sessions
+Rplots.pdf

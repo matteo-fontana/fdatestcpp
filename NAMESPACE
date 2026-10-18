@@ -1,0 +1,14 @@
+useDynLib(fdatestcpp, .registration = TRUE)
+importFrom(Rcpp, evalCpp)
+
+export(pvalues_pointwise, adjust_iwt, adjust_twt, adjust_global)
+export(perm_stats1, perm_stats2)
+export(iwt1, twt1, global1, iwt2, twt2, global2)
+
+importFrom(ggplot2, autoplot, .data)
+importFrom(graphics, plot)
+export(autoplot)
+S3method(autoplot, fdatestcpp_fos)
+S3method(autoplot, fdatestcpp_fts)
+S3method(plot, fdatestcpp_fos)
+S3method(plot, fdatestcpp_fts)
